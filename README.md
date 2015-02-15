@@ -2,7 +2,8 @@ This repository is intended to demonstrate how HathiTrust collections can be sha
 
 The CSV and CSVW files were generated with [hathitables](http://github.com/umd-mith/hathitables). 
 
-    hathitables.py 1316980598 > 1316980598.csv
-    hathitables --metadata 1316980598 > 1316980598.csv-metadata.json
+    % pip install hathitables
+    % hathitables.py 1316980598 > 1316980598.csv
+    % hathitables --metadata 1316980598 > 1316980598.csv-metadata.json
 
 
