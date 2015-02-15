@@ -1,0 +1,127 @@
+{
+  "dc:creator": "mallios", 
+  "dc:title": "Test Subcollection/HTRC Project - Mallios", 
+  "dcat:distribution": {
+    "dcat:downloadURL": "842423973.csv"
+  }, 
+  "dc:modified": "2014-05-09T15:44:57Z", 
+  "dc:publisher": {
+    "schema:name": "HathiTrust", 
+    "schema:url": "http://hathitrust.org"
+  }, 
+  "@context": {
+    "@vocab": "http://www.w3.org/ns/csvw#", 
+    "prov": "http://www.w3.org/ns/prov#", 
+    "dc": "http://purl.org/dc/terms/", 
+    "dcat": "http://www.w3.org/ns/dcat#", 
+    "xsd": "http://www.w3.org/2001/XMLSchema#", 
+    "schema": "http://schema.org"
+  }, 
+  "@type": "Table", 
+  "tableSchema": {
+    "aboutUrl": "http://hdl.handle.net/2027/{id}", 
+    "primaryKey": "id", 
+    "columns": [
+      {
+        "unique": true, 
+        "required": true, 
+        "name": "id"
+      }, 
+      {
+        "datatype": "string", 
+        "name": "title", 
+        "propertyUrl": "http://purl.org/dc/terms/title"
+      }, 
+      {
+        "datatype": "string", 
+        "name": "creator", 
+        "propertyUrl": "http://purl.org/dc/terms/creator"
+      }, 
+      {
+        "datatype": "string", 
+        "name": "issuance", 
+        "propertyUrl": "http://purl.org/dc/terms/issuance"
+      }, 
+      {
+        "datatype": "string", 
+        "name": "publisher", 
+        "propertyUrl": "http://purl.org/dc/terms/publisher"
+      }, 
+      {
+        "datatype": "string", 
+        "name": "contributor1", 
+        "propertyUrl": "http://purl.org/dc/terms/contributor"
+      }, 
+      {
+        "datatype": "string", 
+        "name": "contributor2", 
+        "propertyUrl": "http://purl.org/dc/terms/contributor"
+      }, 
+      {
+        "datatype": "string", 
+        "name": "contributor3", 
+        "propertyUrl": "http://purl.org/dc/terms/contributor"
+      }, 
+      {
+        "datatype": "string", 
+        "name": "contributor4", 
+        "propertyUrl": "http://purl.org/dc/terms/contributor"
+      }, 
+      {
+        "datatype": "string", 
+        "name": "contributor5", 
+        "propertyUrl": "http://purl.org/dc/terms/contributor"
+      }, 
+      {
+        "datatype": "string", 
+        "name": "subject1", 
+        "propertyUrl": "http://purl.org/dc/terms/subject"
+      }, 
+      {
+        "datatype": "string", 
+        "name": "subject2", 
+        "propertyUrl": "http://purl.org/dc/terms/subject"
+      }, 
+      {
+        "datatype": "string", 
+        "name": "subject3", 
+        "propertyUrl": "http://purl.org/dc/terms/subject"
+      }, 
+      {
+        "datatype": "string", 
+        "name": "subject4", 
+        "propertyUrl": "http://purl.org/dc/terms/subject"
+      }, 
+      {
+        "datatype": "string", 
+        "name": "subject5", 
+        "propertyUrl": "http://purl.org/dc/terms/subject"
+      }, 
+      {
+        "datatype": "string", 
+        "name": "description1", 
+        "propertyUrl": "http://purl.org/dc/terms/description"
+      }, 
+      {
+        "datatype": "string", 
+        "name": "description2", 
+        "propertyUrl": "http://purl.org/dc/terms/description"
+      }, 
+      {
+        "datatype": "string", 
+        "name": "description3", 
+        "propertyUrl": "http://purl.org/dc/terms/description"
+      }, 
+      {
+        "datatype": "string", 
+        "name": "description4", 
+        "propertyUrl": "http://purl.org/dc/terms/description"
+      }, 
+      {
+        "datatype": "string", 
+        "name": "description5", 
+        "propertyUrl": "http://purl.org/dc/terms/description"
+      }
+    ]
+  }
+}

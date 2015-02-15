@@ -1,3 +1,8 @@
-This repository is intended to manage [FLA](http://mith.umd.edu/research/project/fla/) metadata used for testing OpenRefine with [OpenAnnotation](http://www.openannotation.org/spec/core/) annotations. It is part of the [HTRC MITH](http://mith.umd.edu/mith-awarded-hathitrust-research-center-grant/) project.
+This repository is intended to demonstrate how HathiTrust collections can be shared using [CSV on the Web](http://www.w3.org/2013/csvw/wiki/Main_Page). It is a work product of MITH's [Workset Creation for Scholarly Analysis](http://mith.umd.edu/research/project/workset-creation-for-scholarly-analysis-project/) project in collaboration with the HathiTrust Research Center.
 
-The CSV files were generated with [hathitables](http://github.com/umd-mith/hathitables).
+The CSV and CSVW files were generated with [hathitables](http://github.com/umd-mith/hathitables). 
+
+    hathitables.py 1316980598 > 1316980598.csv
+    hathitables --metadata 1316980598 > 1316980598.csv-metadata.json
+
+

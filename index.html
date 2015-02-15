@@ -1,0 +1,110 @@
+<html>
+
+  <head>
+    <title>FLA HathiTrust Collections</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/css/foundation.min.css">
+    <style>
+      .collection {
+        margin: 10px 20px;
+        border: thin solid #999;
+        padding: 10px;
+        background-color: #eee;
+      }
+      .collection:hover {
+        background-color: #ddd;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <a class="hidden-phone" href="http://github.com/umd-mith/fla-metadata"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub" /></a> 
+
+    <header class="row">
+      <h1 class="large-offset-2 large-8 text-center">FLA HathiTrust Collections</h1>
+      <hr>
+    </header>
+    
+    <section class="row description">
+
+      <p class="large-offset-2 large-8 small-offset-1 small-10">
+      This webpage is a simple demonstration of sharing HathiTrust collections using <a href="http://www.w3.org/2013/csvw/wiki/Main_Page">CSV on the Web</a> (CSVW). It is meant to illustrate how publishing a small amount of metadata along with URL addressable CSV files can enable downstream linked data curation workflows. This work is part of the <a href="http://mith.umd.edu/research/project/workset-creation-for-scholarly-analysis-project/">Workset Creation for Scholarly Analysis</a> project, which is a collaboration between <a href="http://mith.umd.edu">MITH</a> and the <a href="http://www.hathitrust.org/htrc">HathiTrust Research Center</a>
+      </p>
+      
+      <p class="large-offset-2 large-8 small-offset-1 small-10">
+      Both HathiTrust and the HathiTrust Research Center
+      allow users to build collections (or worksets) which are user defined 
+      aggregations of HathiTrust resources meant to enable research. It is
+      currently possible to download these collections from HTRC as CSV. 
+      What if these CSVs were published with enough metadata to document the
+      semantics of the columns, and with enough provenance information for other
+      systems to track where the data has come from?
+      </p>
+
+      <p class="large-offset-2 large-8 small-offset-1 small-10">
+      The three HathiTrust collections below were created by members of <a
+        href="http://mith.umd.edu/research/project/fla/">Foreign 
+        Literatures in America</a> team at the University of 
+      Maryland. The collection metadata was exported to CSV with an accompanying
+      CSVW JSON file that describes the collection using <a
+        href="http://github.com/umd-mith/hathitables">hathitables</a>.
+      </p>
+
+    </section>
+
+    <section class="row collections">
+
+      <article class="large-offset-2 large-8 small-offset-1 small-10 collection">
+        <h4 class="title">
+          <a
+            href="http://babel.hathitrust.org/cgi/mb?a=listis;c=1316980598">Subcollection/HTRC Project - Borden</a>
+        </h4>
+        <h5 class="links">
+            <a href="1316980598.csv">CSV</a>
+          &nbsp;
+          &nbsp;
+          <a href="1316980598.csv-metadata.json">CSVW</a>
+        </h5>
+      </article>
+
+      <article class="large-offset-2 large-8 small-offset-1 small-10 collection">
+        <h4 class="title">
+          <a href="http://babel.hathitrust.org/cgi/mb?a=listis;c=1811460354">Test
+          subcollection/HTRC Project - Slaughter</a>
+        </h4>
+        <h5 class="links">
+          <a href="1811460354.csv">CSV</a>
+          &nbsp;
+          &nbsp;
+          <a href="1811460354.csv-metadata.json">CSVW</a>
+        </h5>
+      </article>
+
+      <article class="large-offset-2 large-8 small-offset-1 small-10 collection">
+        <h4 class="title">
+          <a href="http://babel.hathitrust.org/cgi/mb?a=listis;c=842423973">Test Subcollection/HTRC Project - Mallios</a>
+        </h4>
+        <h5 class="links">
+          <a href="842423973.csv">CSV</a>
+          &nbsp;
+          &nbsp;
+          <a href="842423973.csv-metadata.json">CSVW</a>
+        </h5>
+      </article>
+
+    </section>
+
+    <br>
+
+    <footer class="row">
+    <p class="large-offset-2 large-10 small-offset-1 small-10">
+    If you have any questions or comments please open an <a href="https://github.com/umd-mith/fla-metadata/issues">issue</a> for this projects <a href="https://github.com/umd-mith/fla-metadata">Github repository</a>.
+    <hr>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation.min.js"></script>
+
+  </body>
+
+</html>
